@@ -52,9 +52,9 @@ def read_varint(file):
         data = b + data
     return data
 
-dirA = 'C:/Users/webdo/AppData/Roaming/Bitcoin/blocks/' # Directory where blk*.dat files are stored
+dirA = 'C:/Users/cryptoxploit/AppData/Roaming/Bitcoin/blocks/' # Directory where blk*.dat files are stored
 #dirA = sys.argv[1]
-dirB = 'C:/Users/webdo/AppData/Roaming/Bitcoin/blocks/PARSED/' # Directory where to save parsing results
+dirB = 'C:/Users/cryptoxploit/AppData/Roaming/Bitcoin/blocks/PARSED/' # Directory where to save parsing results
 #dirA = sys.argv[2]
 
 fList = os.listdir(dirA)
